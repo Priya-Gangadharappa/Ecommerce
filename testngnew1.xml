@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="SleniumPackage1.SeleniumProject11.Coupon_Amazon"/>
+      <class name="SleniumPackage1.SeleniumProject11.AddToCart_Amazon"/>
+      <class name="SleniumPackage1.SeleniumProject11.SearchProduct_Amazon"/>
+      <class name="SleniumPackage1.SeleniumProject11.PaymentSelectionPage_Amazon"/>
+      <class name="SleniumPackage1.SeleniumProject11.UpdatingItemQuantity"/>
+      <class name="SleniumPackage1.SeleniumProject11.Reachtocart_Amazon"/>
+      <class name="SleniumPackage1.SeleniumProject11.Filters_Amazon"/>
+      <class name="SleniumPackage1.SeleniumProject11.ProductDetails_Amazon"/>
+      <class name="SleniumPackage1.SeleniumProject11.HomePage_Amazon"/>
+      <class name="SleniumPackage1.SeleniumProject11.Sorting_Amzon"/>
+      <class name="SleniumPackage1.SeleniumProject11.OrderRating_Amazon"/>
+      <class name="SleniumPackage1.SeleniumProject11.EditProfile_Amazon"/>
+      <class name="SleniumPackage1.SeleniumProject11.CheckOut_Amazon"/>
+      <class name="SleniumPackage1.SeleniumProject11.Login_To_Amazon"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="12" failed="0" skipped="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-06T19:03:56 IST" name="Suite" finished-at="2024-11-06T19:09:11 IST" duration-ms="314574">
+    <groups>
+    </groups>
+    <test started-at="2024-11-06T19:03:56 IST" name="Test" finished-at="2024-11-06T19:09:11 IST" duration-ms="314574">
+      <class name="SleniumPackage1.SeleniumProject11.Filters_Amazon">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:SleniumPackage1.SeleniumProject11.Filters_Amazon@51e69659]" started-at="2024-11-06T19:06:50 IST" name="Launch" finished-at="2024-11-06T19:06:59 IST" duration-ms="8751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Filter()[pri:0, instance:SleniumPackage1.SeleniumProject11.Filters_Amazon@51e69659]" started-at="2024-11-06T19:06:59 IST" name="Filter" finished-at="2024-11-06T19:07:23 IST" duration-ms="23273" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Filter -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SleniumPackage1.SeleniumProject11.Filters_Amazon@51e69659]" started-at="2024-11-06T19:07:23 IST" name="quit" finished-at="2024-11-06T19:07:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SleniumPackage1.SeleniumProject11.Filters_Amazon -->
+      <class name="SleniumPackage1.SeleniumProject11.EditProfile_Amazon">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:SleniumPackage1.SeleniumProject11.EditProfile_Amazon@54a7079e]" started-at="2024-11-06T19:08:42 IST" name="Launch" finished-at="2024-11-06T19:08:48 IST" duration-ms="5960" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached: received Inspector.detached event
+  (Session info: chrome=130.0.6723.92)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95ea99df668748758cdc783e23f895c3, get {url=https://www.Amazon.in/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.93 (dbcf0550c05e..., userDataDir: C:\Users\priya\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53800}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53800/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95ea99df668748758cdc783e23f895c3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached: received Inspector.detached event
+  (Session info: chrome=130.0.6723.92)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95ea99df668748758cdc783e23f895c3, get {url=https://www.Amazon.in/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.93 (dbcf0550c05e..., userDataDir: C:\Users\priya\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53800}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53800/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95ea99df668748758cdc783e23f895c3
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+at SleniumPackage1.SeleniumProject11.Launch_Quit.Launch(Launch_Quit.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Edit()[pri:0, instance:SleniumPackage1.SeleniumProject11.EditProfile_Amazon@54a7079e]" started-at="2024-11-06T19:08:48 IST" name="Edit" finished-at="2024-11-06T19:08:48 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached: received Inspector.detached event
+  (Session info: chrome=130.0.6723.92)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95ea99df668748758cdc783e23f895c3, get {url=https://www.Amazon.in/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.93 (dbcf0550c05e..., userDataDir: C:\Users\priya\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53800}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53800/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95ea99df668748758cdc783e23f895c3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached: received Inspector.detached event
+  (Session info: chrome=130.0.6723.92)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95ea99df668748758cdc783e23f895c3, get {url=https://www.Amazon.in/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.93 (dbcf0550c05e..., userDataDir: C:\Users\priya\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53800}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53800/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95ea99df668748758cdc783e23f895c3
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+at SleniumPackage1.SeleniumProject11.Launch_Quit.Launch(Launch_Quit.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SleniumPackage1.SeleniumProject11.EditProfile_Amazon@54a7079e]" started-at="2024-11-06T19:08:48 IST" name="quit" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730900328489" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SleniumPackage1.SeleniumProject11.EditProfile_Amazon -->
+      <class name="SleniumPackage1.SeleniumProject11.Login_To_Amazon">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:SleniumPackage1.SeleniumProject11.Login_To_Amazon@47d9a273]" started-at="2024-11-06T19:08:56 IST" name="Launch" finished-at="2024-11-06T19:09:01 IST" duration-ms="5050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Login_Amazon()[pri:0, instance:SleniumPackage1.SeleniumProject11.Login_To_Amazon@47d9a273]" started-at="2024-11-06T19:09:01 IST" name="Login_Amazon" finished-at="2024-11-06T19:09:06 IST" duration-ms="5531" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_Amazon -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SleniumPackage1.SeleniumProject11.Login_To_Amazon@47d9a273]" started-at="2024-11-06T19:09:11 IST" name="quit" finished-at="2024-11-06T19:09:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SleniumPackage1.SeleniumProject11.Login_To_Amazon -->
+      <class name="SleniumPackage1.SeleniumProject11.CheckOut_Amazon">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:SleniumPackage1.SeleniumProject11.CheckOut_Amazon@26e356f0]" started-at="2024-11-06T19:08:48 IST" name="Launch" finished-at="2024-11-06T19:08:56 IST" duration-ms="7629" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'PRIYA', ip: '192.168.1.110'
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'PRIYA', ip: '192.168.1.110'
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+at SleniumPackage1.SeleniumProject11.Launch_Quit.Launch(Launch_Quit.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+... 41 more
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:440)
+at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:590)
+at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
+at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.net.SocketException: Connection reset
+at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1476)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1421)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1421)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Proceedtochekout()[pri:0, instance:SleniumPackage1.SeleniumProject11.CheckOut_Amazon@26e356f0]" started-at="2024-11-06T19:08:56 IST" name="Proceedtochekout" finished-at="2024-11-06T19:08:56 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'PRIYA', ip: '192.168.1.110'
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'PRIYA', ip: '192.168.1.110'
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+at SleniumPackage1.SeleniumProject11.Launch_Quit.Launch(Launch_Quit.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+... 41 more
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:440)
+at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:590)
+at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
+at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.net.SocketException: Connection reset
+at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1476)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1421)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1421)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Proceedtochekout -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SleniumPackage1.SeleniumProject11.CheckOut_Amazon@26e356f0]" started-at="2024-11-06T19:08:56 IST" name="quit" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730900336125" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SleniumPackage1.SeleniumProject11.CheckOut_Amazon -->
+      <class name="SleniumPackage1.SeleniumProject11.AddToCart_Amazon">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:SleniumPackage1.SeleniumProject11.AddToCart_Amazon@49049a04]" started-at="2024-11-06T19:04:36 IST" name="Launch" finished-at="2024-11-06T19:04:41 IST" duration-ms="4828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Addtocart()[pri:0, instance:SleniumPackage1.SeleniumProject11.AddToCart_Amazon@49049a04]" started-at="2024-11-06T19:04:41 IST" name="Addtocart" finished-at="2024-11-06T19:04:58 IST" duration-ms="17449" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Addtocart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SleniumPackage1.SeleniumProject11.AddToCart_Amazon@49049a04]" started-at="2024-11-06T19:04:58 IST" name="quit" finished-at="2024-11-06T19:04:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SleniumPackage1.SeleniumProject11.AddToCart_Amazon -->
+      <class name="SleniumPackage1.SeleniumProject11.ProductDetails_Amazon">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:SleniumPackage1.SeleniumProject11.ProductDetails_Amazon@47e2e487]" started-at="2024-11-06T19:07:23 IST" name="Launch" finished-at="2024-11-06T19:07:30 IST" duration-ms="7453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Product_Details()[pri:0, instance:SleniumPackage1.SeleniumProject11.ProductDetails_Amazon@47e2e487]" started-at="2024-11-06T19:07:30 IST" name="Product_Details" finished-at="2024-11-06T19:07:43 IST" duration-ms="12281" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Product_Details -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SleniumPackage1.SeleniumProject11.ProductDetails_Amazon@47e2e487]" started-at="2024-11-06T19:07:43 IST" name="quit" finished-at="2024-11-06T19:07:43 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SleniumPackage1.SeleniumProject11.ProductDetails_Amazon -->
+      <class name="SleniumPackage1.SeleniumProject11.Reachtocart_Amazon">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:SleniumPackage1.SeleniumProject11.Reachtocart_Amazon@659499f1]" started-at="2024-11-06T19:06:30 IST" name="Launch" finished-at="2024-11-06T19:06:36 IST" duration-ms="6063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Reach_without_Login()[pri:0, instance:SleniumPackage1.SeleniumProject11.Reachtocart_Amazon@659499f1]" started-at="2024-11-06T19:06:36 IST" name="Reach_without_Login" finished-at="2024-11-06T19:06:50 IST" duration-ms="14189" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Reach_without_Login -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SleniumPackage1.SeleniumProject11.Reachtocart_Amazon@659499f1]" started-at="2024-11-06T19:06:50 IST" name="quit" finished-at="2024-11-06T19:06:50 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SleniumPackage1.SeleniumProject11.Reachtocart_Amazon -->
+      <class name="SleniumPackage1.SeleniumProject11.SearchProduct_Amazon">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:SleniumPackage1.SeleniumProject11.SearchProduct_Amazon@71a8adcf]" started-at="2024-11-06T19:04:58 IST" name="Launch" finished-at="2024-11-06T19:05:06 IST" duration-ms="7307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Search()[pri:0, instance:SleniumPackage1.SeleniumProject11.SearchProduct_Amazon@71a8adcf]" started-at="2024-11-06T19:05:06 IST" name="Search" finished-at="2024-11-06T19:05:11 IST" duration-ms="5162" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SleniumPackage1.SeleniumProject11.SearchProduct_Amazon@71a8adcf]" started-at="2024-11-06T19:05:11 IST" name="quit" finished-at="2024-11-06T19:05:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SleniumPackage1.SeleniumProject11.SearchProduct_Amazon -->
+      <class name="SleniumPackage1.SeleniumProject11.PaymentSelectionPage_Amazon">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:SleniumPackage1.SeleniumProject11.PaymentSelectionPage_Amazon@27462a88]" started-at="2024-11-06T19:05:11 IST" name="Launch" finished-at="2024-11-06T19:05:26 IST" duration-ms="14535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Payment()[pri:0, instance:SleniumPackage1.SeleniumProject11.PaymentSelectionPage_Amazon@27462a88]" started-at="2024-11-06T19:05:26 IST" name="Payment" finished-at="2024-11-06T19:06:06 IST" duration-ms="39932" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Payment -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SleniumPackage1.SeleniumProject11.PaymentSelectionPage_Amazon@27462a88]" started-at="2024-11-06T19:06:06 IST" name="quit" finished-at="2024-11-06T19:06:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SleniumPackage1.SeleniumProject11.PaymentSelectionPage_Amazon -->
+      <class name="SleniumPackage1.SeleniumProject11.UpdatingItemQuantity">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:SleniumPackage1.SeleniumProject11.UpdatingItemQuantity@82de64a]" started-at="2024-11-06T19:06:06 IST" name="Launch" finished-at="2024-11-06T19:06:10 IST" duration-ms="4122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="UpdateItem()[pri:0, instance:SleniumPackage1.SeleniumProject11.UpdatingItemQuantity@82de64a]" started-at="2024-11-06T19:06:10 IST" name="UpdateItem" finished-at="2024-11-06T19:06:30 IST" duration-ms="19386" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateItem -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SleniumPackage1.SeleniumProject11.UpdatingItemQuantity@82de64a]" started-at="2024-11-06T19:06:30 IST" name="quit" finished-at="2024-11-06T19:06:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SleniumPackage1.SeleniumProject11.UpdatingItemQuantity -->
+      <class name="SleniumPackage1.SeleniumProject11.Coupon_Amazon">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:SleniumPackage1.SeleniumProject11.Coupon_Amazon@74751b3]" started-at="2024-11-06T19:03:56 IST" name="Launch" finished-at="2024-11-06T19:04:01 IST" duration-ms="4592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Coupon()[pri:0, instance:SleniumPackage1.SeleniumProject11.Coupon_Amazon@74751b3]" started-at="2024-11-06T19:04:01 IST" name="Coupon" finished-at="2024-11-06T19:04:36 IST" duration-ms="35150" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Coupon -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SleniumPackage1.SeleniumProject11.Coupon_Amazon@74751b3]" started-at="2024-11-06T19:04:36 IST" name="quit" finished-at="2024-11-06T19:04:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SleniumPackage1.SeleniumProject11.Coupon_Amazon -->
+      <class name="SleniumPackage1.SeleniumProject11.OrderRating_Amazon">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:SleniumPackage1.SeleniumProject11.OrderRating_Amazon@4310d43]" started-at="2024-11-06T19:08:18 IST" name="Launch" finished-at="2024-11-06T19:08:27 IST" duration-ms="9306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="RatingOnOrder()[pri:0, instance:SleniumPackage1.SeleniumProject11.OrderRating_Amazon@4310d43]" started-at="2024-11-06T19:08:27 IST" name="RatingOnOrder" finished-at="2024-11-06T19:08:42 IST" duration-ms="14586" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RatingOnOrder -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SleniumPackage1.SeleniumProject11.OrderRating_Amazon@4310d43]" started-at="2024-11-06T19:08:42 IST" name="quit" finished-at="2024-11-06T19:08:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SleniumPackage1.SeleniumProject11.OrderRating_Amazon -->
+      <class name="SleniumPackage1.SeleniumProject11.HomePage_Amazon">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:SleniumPackage1.SeleniumProject11.HomePage_Amazon@201a4587]" started-at="2024-11-06T19:07:43 IST" name="Launch" finished-at="2024-11-06T19:07:49 IST" duration-ms="5827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="HomePage()[pri:0, instance:SleniumPackage1.SeleniumProject11.HomePage_Amazon@201a4587]" started-at="2024-11-06T19:07:49 IST" name="HomePage" finished-at="2024-11-06T19:07:50 IST" duration-ms="1390" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SleniumPackage1.SeleniumProject11.HomePage_Amazon@201a4587]" started-at="2024-11-06T19:07:51 IST" name="quit" finished-at="2024-11-06T19:07:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SleniumPackage1.SeleniumProject11.HomePage_Amazon -->
+      <class name="SleniumPackage1.SeleniumProject11.Sorting_Amzon">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:SleniumPackage1.SeleniumProject11.Sorting_Amzon@61001b64]" started-at="2024-11-06T19:07:51 IST" name="Launch" finished-at="2024-11-06T19:07:59 IST" duration-ms="7985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="SortingTheProduct()[pri:0, instance:SleniumPackage1.SeleniumProject11.Sorting_Amzon@61001b64]" started-at="2024-11-06T19:07:59 IST" name="SortingTheProduct" finished-at="2024-11-06T19:08:18 IST" duration-ms="19051" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SortingTheProduct -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SleniumPackage1.SeleniumProject11.Sorting_Amzon@61001b64]" started-at="2024-11-06T19:08:18 IST" name="quit" finished-at="2024-11-06T19:08:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SleniumPackage1.SeleniumProject11.Sorting_Amzon -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
